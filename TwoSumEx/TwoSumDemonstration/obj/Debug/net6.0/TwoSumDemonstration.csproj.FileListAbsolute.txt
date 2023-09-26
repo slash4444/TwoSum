@@ -1,0 +1,14 @@
+C:\Users\infprog\Desktop\TwoSumEx\TwoSumDemonstration\obj\Debug\net6.0\TwoSumDemonstration.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\infprog\Desktop\TwoSumEx\TwoSumDemonstration\obj\Debug\net6.0\TwoSumDemonstration.AssemblyInfoInputs.cache
+C:\Users\infprog\Desktop\TwoSumEx\TwoSumDemonstration\obj\Debug\net6.0\TwoSumDemonstration.AssemblyInfo.cs
+C:\Users\infprog\Desktop\TwoSumEx\TwoSumDemonstration\obj\Debug\net6.0\TwoSumDemonstration.csproj.CoreCompileInputs.cache
+C:\Users\infprog\Desktop\TwoSumEx\TwoSumDemonstration\bin\Debug\net6.0\TwoSumDemonstration.exe
+C:\Users\infprog\Desktop\TwoSumEx\TwoSumDemonstration\bin\Debug\net6.0\TwoSumDemonstration.deps.json
+C:\Users\infprog\Desktop\TwoSumEx\TwoSumDemonstration\bin\Debug\net6.0\TwoSumDemonstration.runtimeconfig.json
+C:\Users\infprog\Desktop\TwoSumEx\TwoSumDemonstration\bin\Debug\net6.0\TwoSumDemonstration.dll
+C:\Users\infprog\Desktop\TwoSumEx\TwoSumDemonstration\bin\Debug\net6.0\TwoSumDemonstration.pdb
+C:\Users\infprog\Desktop\TwoSumEx\TwoSumDemonstration\obj\Debug\net6.0\TwoSumDemonstration.dll
+C:\Users\infprog\Desktop\TwoSumEx\TwoSumDemonstration\obj\Debug\net6.0\refint\TwoSumDemonstration.dll
+C:\Users\infprog\Desktop\TwoSumEx\TwoSumDemonstration\obj\Debug\net6.0\TwoSumDemonstration.pdb
+C:\Users\infprog\Desktop\TwoSumEx\TwoSumDemonstration\obj\Debug\net6.0\TwoSumDemonstration.genruntimeconfig.cache
+C:\Users\infprog\Desktop\TwoSumEx\TwoSumDemonstration\obj\Debug\net6.0\ref\TwoSumDemonstration.dll
