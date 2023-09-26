@@ -10,8 +10,7 @@ These statements include the required namespaces for handling input and output a
 
 Define the Program class:
 
-csharp
-Copy code
+
 class Program
 {
     // ...
@@ -20,8 +19,7 @@ The entire code is encapsulated within this class.
 
 Define the Main method:
 
-csharp
-Copy code
+
 static void Main(string[] args)
 {
     // ...
@@ -30,23 +28,20 @@ The Main method is the entry point of the program, where execution begins.
 
 Initialize an integer array nums and a target integer target:
 
-csharp
-Copy code
+
 int[] nums = { 2, 7, 11, 15 };
 int target = 9;
 In this example, the nums array contains [2, 7, 11, 15], and the target is set to 9.
 
 Call the TwoSum method to find the indices of two numbers that add up to the target:
 
-csharp
-Copy code
+
 int[] result = TwoSum(nums, target);
 The TwoSum method is responsible for solving the problem and returns an array of indices if a solution is found, or null if no solution exists.
 
 Check the result and print the output:
 
-csharp
-Copy code
+
 if (result != null)
 {
     Console.WriteLine($"Indices of the two numbers that add up to {target}: {result[0]} and {result[1]}");
@@ -59,8 +54,7 @@ If a solution is found (i.e., result is not null), it prints the indices of the 
 
 Define the TwoSum method:
 
-csharp
-Copy code
+
 static int[] TwoSum(int[] nums, int target)
 {
     // ...
@@ -71,21 +65,18 @@ Inside the TwoSum method, a Dictionary<int, int> called numIndices is created to
 
 A for loop is used to iterate through the nums array:
 
-csharp
-Copy code
+
 for (int i = 0; i < nums.Length; i++)
 {
     // ...
 }
 Inside the loop, it calculates the complement of the current number with respect to the target:
 
-csharp
-Copy code
+
 int complement = target - nums[i];
 It checks if the complement exists in the numIndices dictionary:
 
-csharp
-Copy code
+
 if (numIndices.ContainsKey(complement))
 {
     return new int[] { numIndices[complement], i };
@@ -93,8 +84,7 @@ if (numIndices.ContainsKey(complement))
 If the complement exists, it means that adding the current number to the complement will result in the target, so it returns an array containing the indices of the two numbers that add up to the target.
 
 If no solution is found within the loop, it stores the current number and its index in the numIndices dictionary for future reference:
-csharp
-Copy code
+
 numIndices[nums[i]] = i;
 If the loop completes without finding a solution, it returns null to indicate that no solution was found.
 In summary, this code demonstrates a simple and efficient algorithm for solving the "Two Sum" problem using a dictionary to keep track of the numbers and their indices as it iterates through the array. If a pair of numbers is found that adds up to the target, their indices are returned as the result; otherwise, it returns null to indicate that no such pair exists.
